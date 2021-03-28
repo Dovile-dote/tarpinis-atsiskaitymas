@@ -274,78 +274,95 @@ li img {
     }
 
     label{
-     display: flex;
-     flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 
-label button {
-    width: 100%;
-}
-.image {
-    height: 100vh;
-}
-.end {
-    height: 50vh;
-}
+    label button {
+        width: 100%;
+    }
+     
+    .image {
+        height: 100vh;
+    }
+     
+    .end {
+        height: 50vh;
+    }
 
-.elements {
-    flex-direction: column;
-}
-.elements:last-child {
-    margin-bottom: 100px;
-}
+    .elements {
+        flex-direction: column;
+    }
+    
+    .elements:last-child {
+        margin-bottom: 100px;
+    }
 
-.elements a{
-    margin-top: 100px;
-    margin-bottom: 0;
-}
+    .elements a{
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
 
-.middle h2 {
-    margin-top: 100px;
-    text-align: center;
-}
+    .middle h2 {
+        margin-top: 100px;
+        text-align: center;
+    }
 
-.row:nth-child(odd),
-.row {
-    flex-direction: column;
-}
-footer{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-left: 0;
-}
-.footer p{
-    margin: 0 auto;
-}
-ul {
-    display: flex;
-    margin-right: 10px;
-    margin-top: 40;
-    margin-bottom: 20px;
-}
- input {
-     width: 90vw;
-     margin-bottom: 8px;
- }
- .dots {
-     width: 100%;
- }
-.dots ul{
-    margin: 0;
-    font-size: 10px;
-    display: flex;
-}
-.dots li::after {
-    margin-left: 10px;
-}
-.dots li {
-    margin-left: 10px;
-    /* flex-shrink: 0; */
-}
+    .row:nth-child(odd),
+    .row {
+        flex-direction: column;
+    }
 
-.footer {
-    margin-left: 10px;
-    text-align: center;
+    .row div {
+        display: block;
+        height: 50vh;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer p{
+        margin: 0 auto;
+    }
+
+    ul {
+        display: flex;
+        margin-right: 10px;
+        margin-top: 40;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 90vw;
+        margin-bottom: 8px;
+    }
+
+    .dots {
+        width: 100%;
+    }
+
+    .dots ul{
+        margin: 0;
+        font-size: 10px;
+        display: flex;
+    }
+
+    .dots li::after {
+        margin-left: 10px;
+    }
+
+    .dots li {
+        margin-left: 10px;
+        /* flex-shrink: 0; */
+    }
+
+    .footer {
+        margin-left: 10px;
+        text-align: center;
+    }
 }
