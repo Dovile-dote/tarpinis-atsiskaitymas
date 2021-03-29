@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <title>Tarpinis atsiskaitymas</title>
-    <link rel="stylesheet" href="tarpinis_atsiskaitymas.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <button>Sign In</button>
     </header>
     <main>
-        <section>
+        <section class="first">
             <div class="image">
                 <img src="bg-masthead.jpg" alt="">
                 <h1>Build a landing page for your business or project and generate more leads!</h1>
@@ -25,33 +25,34 @@
                     <input type="email" name="email" placeholder="  Enter your email...">
                     <button>Sign up!</button></label>
             </div>
-            <div class="elements">
-                <a href="#1" class="block">
+
+            <menu>
+                <a href="#1">
                     <img src="ikona.png" alt="">
                     <h3>Fully Responsive</h3>
                     <p>This theme will look great on any device, no matter the size!</p>
                 </a>
-                <a href="#2" class="block">
+                <a href="#2">
                     <img src="ikona2.png" alt="">
                     <h3>Bootstrap 4 Ready</h3>
                     <p>Featuring the latest build of the new Bootstrap 4 framework!</p>
                 </a>
-                <a href="#3" class="block">
+                <a href="#3">
                     <img src="ikona3.png" alt="">
                     <h3>Easy to Use</h3>
                     <p> Ready to use with your own content,
                         or customize the source files!
                     </p>
                 </a>
-            </div>
+            </menu>
         </section>
 
-        <section>
-            <div class="row" id="1">
-                <div class="foto">
+        <section class="second">
+            <div id="1">
+                <div>
                     <img src="bg-showcase-1.jpg" alt="">
                 </div>
-                <div class="text">
+                <div>
                     <h2>Fully Responsive Design</h2>
                     <p>When you use a theme created by Start Bootstrap, you know
                         that the theme will look great on any device, whether it's a
@@ -60,11 +61,11 @@
                 </div>
             </div>
 
-            <div class="row" id="2">
-                <div class="foto">
+            <div id="2">
+                <div>
                     <img src="bg-showcase-2.jpg" alt="">
                 </div>
-                <div class="text">
+                <div>
                     <h2>Updated For Bootstrap 4</h2>
                     <p>Newly improved, and full of great utility classes, Bootstrap 4 is
                         leading the way in mobile responsive web development! All of
@@ -73,11 +74,11 @@
                 </div>
             </div>
 
-            <div class="row" id="3">
-                <div class="foto">
+            <div id="3">
+                <div>
                     <img src="bg-showcase-3.jpg" alt="">
                 </div>
-                <div class="text">
+                <div>
                     <h2>Easy to Use & Customize</h2>
                     <p>Landing Page is just HTML and CSS with a splash of SCSS for
                         users who demand some deeper customization options. Out of
@@ -86,21 +87,21 @@
                     </p>
                 </div>
             </div>
-
         </section>
-        <section class="middle">
+
+        <section class="last">
             <h2>What people are saying...</h2>
-            <div class="elements">
-                <div class="block">
-                    <div class="circle">
+            <div>
+                <div>
+                    <div>
                         <img src="testimonials-1.jpg" alt="">
                     </div>
                     <h4>Margaret E.</h4>
                     <p>"This is fantastic! Thanks so much guys!"</p>
                 </div>
 
-                <div class="block">
-                    <div class="circle">
+                <div>
+                    <div>
                         <img src="testimonials-2.jpg" alt="">
                     </div>
                     <h4>Fred S.</h4>
@@ -109,8 +110,8 @@
                     </p>
                 </div>
 
-                <div class="block">
-                    <div class="circle">
+                <div>
+                    <div>
                         <img src="testimonials-3.jpg" alt="">
                     </div>
                     <h4>Sarah W..</h4>
@@ -121,7 +122,7 @@
             </div>
 
 
-            <div class="image end">
+            <div class="image">
                 <img src="bg-masthead.jpg" alt="">
                 <h1>Ready to get started? Sing up now!
                 </h1>
@@ -133,8 +134,8 @@
         </section>
 
         <footer>
-            <div class="footer">
-                <ul class="dots">
+            <div>
+                <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Terms of Use</a></li>
